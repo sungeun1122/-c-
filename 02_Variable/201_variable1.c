@@ -54,7 +54,16 @@ int main()
 
 	int hello_my_world2021;
 	//int a;  // 동일한 이름의 지역변수 선언 불가.
+	
+	int aaaa, AAAA, Aaaa, aaaA;  // 대소문자 구분
+	int _total_;
+	//int 2021football; // 숫자로 시작 불가
+	//int return;  // 키워드 사용 불가
+	//int my world;  // 띄어쓰기 안됨.
 
 	getchar();
 	return 0;
 }
+
+// 주석: CTRL + K, CTRL + C
+// 주석해제: CTRL + K, CTRL + U
