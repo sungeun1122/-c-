@@ -27,5 +27,11 @@
     <ClCompile Include="선택제어문_자가진단3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="선택제어문_자가진단4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="선택제어문_형성평가2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
