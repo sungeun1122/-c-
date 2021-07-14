@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="401_operator.c">
+    <ClCompile Include="501_if.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="402_ternary.c">
+    <ClCompile Include="502_ifelse.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="403_bit_operator.c">
+    <ClCompile Include="선택제어문_자가진단2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="선택제어문_자가진단3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

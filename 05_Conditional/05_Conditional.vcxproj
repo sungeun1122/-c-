@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{502DE7C5-DE60-437A-9C1F-5BF6E0E6CA6A}</ProjectGuid>
-    <RootNamespace>My04_Operator</RootNamespace>
+    <ProjectGuid>{A7C6144E-A2DA-4B6A-B85E-140F5CF53589}</ProjectGuid>
+    <RootNamespace>My05_Conditional</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,19 +110,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="401_operator.c">
+    <ClCompile Include="501_if.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="402_ternary.c">
+    <ClCompile Include="502_ifelse.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="403_bit_operator.c">
+    <ClCompile Include="선택제어문_자가진단3.c">
       <SubType>
       </SubType>
+    </ClCompile>
+    <ClCompile Include="선택제어문_자가진단2.c">
+      <SubType>
+      </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

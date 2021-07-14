@@ -105,8 +105,29 @@ int main()
 	result = (10 < 4) && (45 < 90);
 	printf("result = %d\n", result);
 
-	result = 10 < 4 && 45 < 90;
-	printf("result = %d\n", result);
+	// C언어 에서의 참, 거짓 '판정' 
+	// 0 은 '거짓',  0 이외의 값은 '참' 으로 판정한다.
+	// java, python 같은 boolean 타입 없슴
+
+	result = 10 - 10 || 100 + 1;
+	printf("result = %d\n", result);  // 1
+
+	result = 10 - (10 || 100) + 1;
+	printf("result = %d\n", result);  // 10
+
+	result = -10 && -100;
+	printf("result = %d\n", result);  // 1
+
+	// ! : not 연산자
+	result = 54 % 2 == 0;
+	printf("result = %d\n", result);  // 1
+
+	result = !(54 % 2 == 0);
+	printf("result = %d\n", result);  // 0
+
+	printf("%d, %d, %d\n", 100 * 2, -1, 0);
+	printf("%d, %d, %d\n", !(100 * 2), !(-1), !(0));
+
 
 
 	printf("\nENTER 를 누르면 종료합니다\n");
