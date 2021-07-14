@@ -42,5 +42,11 @@
     <ClCompile Include="505_mistake.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="선택제어문_자가진단6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="선택제어문_형성평가5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
