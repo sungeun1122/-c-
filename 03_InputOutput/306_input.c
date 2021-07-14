@@ -29,3 +29,13 @@ int main()
 	getchar();
 	return 0;
 }
+
+/*
+	입력버퍼비우기 참고
+
+	1. while(getchar()!= '\n');
+
+	2. fflush(stdin):  vs에서만 사용
+
+	3. __fpurge(stdin) : 리눅스 환경에서만 사용
+*/
