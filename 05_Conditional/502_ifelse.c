@@ -36,7 +36,7 @@ int main()
 	//--------------------------------------
 	// if .. else if .. else if...
 
-	double point = 2.8;
+	double point = 0.5;
 
 	if (point >= 4.0){
 		printf("AÇÐÁ¡\n");

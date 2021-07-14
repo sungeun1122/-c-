@@ -33,5 +33,14 @@
     <ClCompile Include="선택제어문_형성평가2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="503_switch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="504_nested.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="505_mistake.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
