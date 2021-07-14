@@ -27,5 +27,11 @@
     <ClCompile Include="304_input.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="305_input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="306_input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

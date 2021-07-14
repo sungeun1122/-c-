@@ -34,7 +34,7 @@ int main()
 
 	printf("평균은 : %.1f점\n", avg);
 
-	getchar();
+	getchar();  // 버퍼의 '\n' 제거
 	printf("\nENTER 를 누르면 종료합니다\n");
 	getchar();
 	return 0;
