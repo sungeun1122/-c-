@@ -27,5 +27,29 @@
     <ClCompile Include="603_while.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="604_nested.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="605_break_continue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="606_dowhile.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="607_infinite.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="반복1_형성평가2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="반복3_자가진단2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="반복3_형성평가3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="반복2_형성평가A.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
