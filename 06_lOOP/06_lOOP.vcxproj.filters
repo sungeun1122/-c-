@@ -21,5 +21,11 @@
     <ClCompile Include="602_for.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="반복2_자가진단5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="603_while.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
