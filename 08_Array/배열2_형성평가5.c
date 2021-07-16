@@ -54,7 +54,6 @@ int main()
 		printf("%dclass : %d\n", (row + 1), sum[row]);
 	}
 
-
 	getchar();
 	printf("\n아무키나 입력하면 프로그램을 종료합니다\n");
 	getchar();
