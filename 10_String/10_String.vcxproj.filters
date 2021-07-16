@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="901_pointer.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="902_ptr_op.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="903_ptr_arr.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="904_ptr_to_ptr.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="905_call_by_reference.c">
+    <ClCompile Include="1001_string.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
