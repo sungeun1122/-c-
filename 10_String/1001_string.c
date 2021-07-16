@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /*
 *	문자열의 길이(문자의 개수)를 반환
@@ -148,7 +149,12 @@ int main()
 
 	}
 
-
+	// 문자열 대소문자 변환 strupr(), strlwr()
+	{
+		char s1[30] = "A Garden Diary";
+		printf("strupr() => %s, s1 => %s\n", strupr(s1), s1);
+		printf("strlwr() => %s, s1 => %s\n", strlwr(s1), s1);
+	}
 
 
 
