@@ -130,6 +130,14 @@
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="805_array_str.c">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="806_ndim_array.c">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="배열1_형성평가7.c">
       <SubType>
       </SubType>
@@ -143,7 +151,7 @@
     <ClCompile Include="배열1_자가진단8.c">
       <SubType>
       </SubType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

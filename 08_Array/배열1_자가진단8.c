@@ -2,43 +2,64 @@
 #pragma warning(disable:4996)
 
 /*
-http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=56&sca=1090
-배열1 - 형성평가7
-[문제]
-세 자리 이하의 정수를 차례로 입력 받다가 999가 입력되면 프로그램을 종료하고
-그 때까지 입력된 최대값과 최소값을 출력하는 프로그램을 작성하시오.
-입력받는 정수는 100개 이하이다.
 
+http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=199&sca=1090
+10개의 정수를 입력받아 배열에 저장한 후 
+짝수 번째 입력된 값의 합과 
+홀수 번째 입력된 값의 평균을 출력하는 프로그램을 작성하시오.
 
-입력]
-45 19 123 58 10 -55 16 -1 999
+평균은 반올림하여 소수첫째자리까지 출력한다.
 
-출력]
-max : 123
-min : -55
+입력 예
+95 100 88 65 76 89 58 93 77 99
+
+출력 예
+sum : 446
+avg : 78.8
+
 */
-
 int main()
 {
-	int num[100];
-	int i;
-	for (i = 0; i < 100; i++) {
-		scanf("%d", &num[i]);
-		if (num[i] == 999) break;  // 999 입력되면 종료
-	}// end for
+	int number[10]; // 정수 10개를 담기 위한 배열
 
-	int min = num[0];  // 최솟값
-	int max = num[0];  // 최댓값
-	for (int j = 1; j < i; j++) {
-		if (min > num[j]) min = num[j];
-		if (max < num[j]) max = num[j];
-	} // end for
+	for (int i = 0; i < 10; i++) {
+		scanf("%d", &number[i]);
+	}
 
-	printf("max : %d\n", max);
-	printf("min : %d\n", min);
+	/*
+	// 짝수번째의 합
+	int sum = 0;
+	for (int i = 1; i < 10; i += 2) {
+	sum += number[i];
+	}
+	printf("sum : %d\n", sum);
+
+	//  홀수번째의 합
+	sum = 0;
+	for (int i = 0; i < 10; i += 2) {
+	sum += number[i];
+	}
+	printf("avg : %.1f\n", sum / 5.0);
+	*/
+
+
+	int even = 0, odd = 0;
+	for (int i = 0; i < 10; i++) {
+		if (i % 2 == 0) {
+			// 홀수번째
+			odd += number[i];
+		}
+		else {
+			// 짝수번째
+			even += number[i];
+		}
+	}
+	printf("sum : %d\n", even);
+	printf("avg : %.1f\n", odd / 5.0);
+
 
 	getchar();
-	printf("\n아무키나 입력하면 프로그램을 종료합니다\n");
+	printf("\nENTER 를 누르면 종료됩니다\n");
 	getchar();
 	return 0;
-}
+} // end main()
