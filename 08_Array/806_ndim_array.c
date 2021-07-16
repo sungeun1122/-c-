@@ -37,7 +37,33 @@ int main()
 	int arr3[4][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 				// {[0][0], [0][1], [0][2], [1][0]...  [3][2]}
 
-	// TODO
+	printf("%d\n", arr2[2][2]); // 9
+	printf("%d\n", arr2[3][1]); // 11 
+
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 3; j++) {
+			printf("arr[%d][%d] = %d\n", i, j, arr1[i][j]);
+		}
+	}
+
+	printf("\n");
+
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 3; j++) {
+			printf("%2d ", arr1[i][j]);
+		}
+		printf("\n");
+	}
+
+	int arr4[4][3] = { 0 };  // 전체 0 으로 초기화
+	printf("\n");
+
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 3; j++) {
+			printf("%2d ", arr4[i][j]);
+		}
+		printf("\n");
+	}
 
 
 	//int arr3[3][4][2];   // 3 x int[4][2]

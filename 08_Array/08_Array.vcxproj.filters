@@ -42,5 +42,11 @@
     <ClCompile Include="806_ndim_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="배열2_자가진단6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="배열2_형성평가5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
